@@ -6,3 +6,9 @@ export const Container = styled.SafeAreaView`
   align-items: center;
   justify-content: center;
 `;
+
+export const FlatList = styled.FlatList`
+  background-color: red;
+  flex: 1;
+  height: 100%;
+`;
